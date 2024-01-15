@@ -177,19 +177,92 @@ nav > ul > li > a {
   justify-content: space-between;
   /* mix-blend-mode: luminosity; */
 }
-.footer-content{
-    width: 80%;
-    max-width: 1440px;
-    margin: 130px auto 30px;
-    text-align: center;
+.footer-content {
+  width: 80%;
+  max-width: 1440px;
+  margin: 130px auto 30px;
+  text-align: center;
 }
-.footer-content>p{
-    color: #424242;
-font-size: 1.25rem;
-font-weight: 400;
-border-radius: 8px;
-background: #FFF4E7;
-padding: 35px 0;
+.footer-content > p {
+  color: #424242;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #fff4e7;
+  padding: 35px 0;
+}
+.more-feature {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+.more-feature-container {
+  width: 40%;
+}
+.more-feature-img {
+  width: 50%;
+}
+.more-feature-img > img {
+    width: 95%;
+  /* height: 100%;   */
+  margin-left: 100px;
+}
+.more-feature-container > .more-feature-content > .more-feature-title {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.more-feature-container > .more-feature-content > .more-feature-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.card-item {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.card-item h3 {
+  color: #131313;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.card-item p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.badge {
+  width: 340px;
+  padding: 45px;
+  background-color: #ff900e;
+  border-radius: 10px;
+  position: relative;
+  bottom: 150px;
+  /* right: 80px; */
+}
+.badge h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 0;
+}
+.badge p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 0;
 }
 /* Responsive section */
 
@@ -234,12 +307,29 @@ padding: 35px 0;
     flex-direction: column;
     justify-content: space-evenly;
   }
-  .sponsor-content{
+  .sponsor-content {
     width: 100%;
   }
-  .sponsor-img{
+  .sponsor-img {
     flex-direction: column;
     padding: 40px;
     gap: 30px;
+  }
+  .more-feature{
+    flex-direction: column;
+  }
+  .more-feature-container{
+    width: 100%;
+  }
+  .more-feature-img{
+    width: 100%;
+  }
+  .more-feature-img>img{
+    width: 100%;
+    margin-left: 0;
+  }
+  .badge{
+    position: static;
+    width: 200px;
   }
 }
