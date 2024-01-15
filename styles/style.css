@@ -177,6 +177,20 @@ nav > ul > li > a {
   justify-content: space-between;
   /* mix-blend-mode: luminosity; */
 }
+.footer-content{
+    width: 80%;
+    max-width: 1440px;
+    margin: 130px auto 30px;
+    text-align: center;
+}
+.footer-content>p{
+    color: #424242;
+font-size: 1.25rem;
+font-weight: 400;
+border-radius: 8px;
+background: #FFF4E7;
+padding: 35px 0;
+}
 /* Responsive section */
 
 @media screen and (max-width: 576px) {
