@@ -65,3 +65,30 @@ nav > ul > li > a {
     margin: 0 auto;
     padding-bottom: 45px;
 }
+
+
+
+/* Responsive section */
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav > .nav-title {
+        text-align: center;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    nav > ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav > ul > li{
+        margin-bottom: 10px;
+    }
+    .banner > img{
+        width: 100%;
+    }
+}
