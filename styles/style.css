@@ -132,4 +132,16 @@ font-weight: 700;
   .banner > img {
     width: 100%;
   }
+  .feature{
+    flex-direction: column-reverse;
+  }
+  .feature-content{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .feature-img{
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 }
