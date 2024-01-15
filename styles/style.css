@@ -220,4 +220,12 @@ nav > ul > li > a {
     flex-direction: column;
     justify-content: space-evenly;
   }
+  .sponsor-content{
+    width: 100%;
+  }
+  .sponsor-img{
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+  }
 }
