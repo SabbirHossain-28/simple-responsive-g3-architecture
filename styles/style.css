@@ -133,7 +133,6 @@ line-height: 26px; /* 162.5% */
     justify-content: space-around;
     margin-top: 100px ;
     text-align: center;
-    flex: 1;
 }
 .fact-items> .item{
     border-radius: 8px;
@@ -186,5 +185,13 @@ font-weight: 600;
   .feature-img{
     grid-template-columns: 1fr;
     width: 100%;
+  }
+  .fact-content{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fact-items{
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 }
